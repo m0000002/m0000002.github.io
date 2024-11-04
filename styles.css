@@ -1,0 +1,193 @@
+/* CSS Reset */
+
+body {
+    background-color: #aad4cf;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+/* Global Styling */
+body {
+    font-family: Arial, Helvetica, serif;
+    background-color: #d4e9e7;
+    color: black;
+}
+
+Header h2 {
+    border: none;
+    color: black;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    
+}
+
+/* Header Styling */
+header {
+    position: relative;
+    height: 50vh;
+    text-align: center;
+}
+
+nav {
+    display: flex; /* Use flexbox for layout*/
+    justify-content: center; /* Align items to the right */
+    margin: 20px 0; /* Optional margin for spacing */
+}
+
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.nav-item {
+    font-size: 24px; /* Font size for navigation items */
+    margin: 0 15px; /* Space between items */
+    color: black; /* Text color */
+    font-weight: bold; /* Bold text */
+}
+
+.nav-item {
+    font-size: 24px; /* Font size for navigation items */
+    margin: 0 15px; /* Space between items */
+    color: black; /* Text color */
+    font-weight: bold; /* Bold text */
+}
+
+.nav-item {
+    font-size: 24px; /* Font size for navigation items */
+    margin: 0 15px; /* Space between items */
+    color: black; /* Text color */
+    font-weight: bold; /* Bold text */
+}
+
+
+header img {
+    width: 70%, 70%;
+    height: auto;
+}
+
+header h1 {
+    position:absolute;
+    font-size: 60px;
+    top: 200px; 
+    right: 37%;
+    transform: translateX(-50%, -50%);
+    color: whitesmoke;
+}
+
+/* Ensure consistent padding or margins */
+h2 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* Article Section */
+aritcle {
+    max-width: 800px; 
+    margin: 40px; 
+}
+
+
+.article-img {
+    float: left; /* Float to the left */
+    margin-right: 15px; /* Space between the image and text */
+    width: 250px; /* Set a specific width */
+    position:absolute;
+    font-size: 60px;
+    top: 550px; 
+    left: 17%;
+    right: 100%;
+    transform: translateX(-40%, -40%);
+}
+
+aritcle p {
+    margin-top: 0; /* Prevent touching the image */
+    margin-bottom: 15px; /* Space between paragraphs */
+}
+
+.move-up {
+    position: relative;
+    top: -40px;
+}
+
+.inward-padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* General Paragraph Styling */
+article p {
+    margin-top: 0; /* Prevent touching the image */
+    margin-bottom: 15px; /* Space between paragraphs */
+
+}
+
+/* Clearfix for the article to ensure it contains floated elements */
+article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Facts Section */
+.facts {
+    max-width: 800px;
+    margin: 20px auto;
+}
+.form-section {
+    margin: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #aad4cf;
+    border: none;
+    color: black;
+    cursor: pointer;
+    left: 30%;
+}
+
+/* Form Section */
+
+.form-section {
+    margin: 20px;
+    padding: 20px; /* Add padding */
+    border: 1px solid black; /* Thin black border */
+    border-radius: 5px; /* Optional: rounded corners */
+    background-color: #d4e9e7; /* Optional: white background */
+}
+
+/* General Paragraph Styling */
+article p {
+    margin-top: 0; /* Prevent touching the image */
+    margin-bottom: 15px; /* Space between paragraphs */
+
+}
